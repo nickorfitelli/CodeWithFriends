@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Marlon from './MarlonApp/Marlon';
 import * as serviceWorker from './serviceWorker';
 import Nick from "./Nick"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <Marlon />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
